@@ -1,0 +1,65 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+
+.card
+{
+  box-shadow:  0 0 112px;
+  height: 50vh !important;
+  top: 14rem;
+  width: 50%;
+}
+
+
+.card-img-top
+{
+  height: 200px;
+  margin: 0 auto -3em auto;
+  width: 250px !important;
+  text-align: justify;
+}
+.double-quote
+{
+  
+  width: 30px;
+}
+.card-text
+{
+  color: rgb(4, 149, 149);
+  font-size: 20px;
+  gap: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 580px) {
+  .card
+  {
+    height:60vh!important;
+    width: 85%;
+  }
+
+  .card-img-top
+  {
+    height: 200px;
+ 
+    width: 300px !important;
+  }
+  .card-text
+  {
+    margin-bottom: 5px;
+  }
+}
